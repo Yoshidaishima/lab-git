@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ssh git@rpi4.phy -p 2222

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+podman run -d \
+--name git-srv \
+-v ./git-repos:/srv/git \
+-v $(pwd)/authorized_keys:/home/git/.ssh/authorized_keys \
+-p 2222:22 \
+-e SSH_AUTH_METHODS="publickey" \
+docker.io/rockstorm/git-server
