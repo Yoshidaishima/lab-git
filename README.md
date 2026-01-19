@@ -12,4 +12,4 @@ git remote add origin ssh://git@rpi4.phy:2222/srv/git/test.git
 - can be decrypted with gpg <file>
 
 ### Docs
-(rockstorm)[https://hub.docker.com/r/rockstorm/git-server]
+[rockstorm](https://hub.docker.com/r/rockstorm/git-server)
